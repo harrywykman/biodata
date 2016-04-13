@@ -230,6 +230,10 @@ if DJANGO_VERSION < (1, 9):
 ################
 
 INSTALLED_APPS = (
+    "records",
+    "django_mptt_admin",
+    "mptt",
+    "biota",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
